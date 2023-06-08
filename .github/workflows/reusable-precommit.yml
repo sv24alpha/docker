@@ -1,6 +1,6 @@
 name: Pre-commit (reusable)
 on:
-  workflow_call:
+  workflow_dispatch:
     inputs:
       BATFISH_GITHUB_BATFISH_REPO:
         description: "Git repo containing Batfish"
